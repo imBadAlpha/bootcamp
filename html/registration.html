@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISCP Employee Registration Form</title>
+</head>
+<body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png" alt="iscp logo" style="height: 200px;">
+    
+    <form>
+        First Name: <input type="text" name="first_name" placeholder="Juan"><br>
+        Last Name: <input type="text" name="last_name" placeholder="De la Cruz"><br>
+        Password: <input type="password" name="password" placeholder="**********"><br>
+        Confirm Password: <input type="password" name="confirm_pw" placeholder="************"><br>
+        SSS ID: <input type="number" name="sss_id" placeholder="1234567890"><br>
+        Pag-Ibig ID: <input type="number" name="pagibig_id" id="" placeholder="123456789000"><br>
+        Philhealth ID: <input type="number" name="philhealth_id" id="" placeholder="123456789000"><br>
+        Place of Birth: <input type="text" name="place_of_birth" id="" placeholder="City and Province only"><br>
+        Birthdate: <input type="date" name="birth_date" id=""><br>
+        Email: <input type="email" name="email" id="" placeholder="juandelacruz@gmail.com"><br>
+        Barangay: <input type="text" name="barangay" id="" placeholder="ex. Tondo"><br>
+        City/Town: <input type="text" name="city" id="" placeholder="ex. Manila"><br>
+        Province: <input type="text" name="province" id="" placeholder="ex. Cordillera"><br>
+        Full Address: <br>
+        <textarea name="full_address" id="" cols="30" rows="10" placeholder="House or Room no., Street, etc."></textarea><br>
+        Contact number(mobile): <input type="tel" name="mobile_num" id="" placeholder="+6391234567890"><br>
+        Contact number(telephone): <input type="tel" name="tel_number" id="" placeholder="(123)-231-4567"><br>
+        Civil Status: <select name="civ_status" id="">
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="widowed">Widowed</option>
+            <option value="separated">Separated</option>
+        </select><br>
+        Gender: <select name="gender" id="">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+        Upload Image Profile: <input type="file" name="profile_pic" id="" accept="image/*"><br>
+        Upload 2x2 Picture: <input type="file" name="2x2_pic" id="" accept="image/*"><br>
+        Upload Picture of Government ID: <input type="file" name="gov_id_pic" id="" accept="image/*"><br>
+        Mother's Maiden Name: <input type="text" name="mom_maiden_name" id="" placeholder="Juana San Jose"><br>
+        Father's Name: <input type="text" name="dad_name" id="" placeholder="Pedro De la Cruz"><br>
+        Date Registered: <input type="date" name="date_reg" id=""><br>
+        Have you experienced any of the following in the last 30 days?<br>
+            <input type="checkbox" name="coughing" id="">Coughing<br>
+            <input type="checkbox" name="fever" id="">Fever<br>
+            <input type="checkbox" name="headache" id="">Headache <br>
+            <input type="checkbox" name="common_cold" id="">Common cold <br>
+            <input type="checkbox" name="sore_throat" id="">Sore Throat <br>
+            <input type="checkbox" name="body_ache" id="">Body Ache <br>
+            <input type="checkbox" name="tiredness" id="">Tiredness <br>
+            <input type="checkbox" name="loss_smell" id="">Loss of Smell <br>
+        Give a short description about yourself: <br>
+        <textarea name="desc_self" id="" cols="30" rows="10" placeholder="Hobbies, Favorite movie, Job Exp., etc."></textarea>
+    </form>
+</body>
+</html>

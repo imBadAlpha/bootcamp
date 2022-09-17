@@ -1,0 +1,123 @@
+body {
+    font-family: Tahoma;
+    text-align: center;
+    background-image: url("https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+img {
+    height: 100px;
+}
+h1 {
+    color: rgb(47, 47, 248);
+}
+#cont1{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#cont1_1{
+    float:left; 
+    text-align: right;
+    width:50%;
+    height:280px;
+}
+#cont1_1 img {
+    height: 200px;
+}
+#cont1_2{
+    float:right; 
+    width:50%;
+    height:280px;
+    text-align: left;
+}
+#cont1_2 a {
+    font-size: 30px;
+    color: blue;
+}
+#cont1_2 a:visited{
+    color: orange;
+}
+#cont1_2 a:hover{
+    color: magenta;
+}
+#cont1_2 a:active{
+    color: lime;
+}
+#cont2{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#cont2_1{
+    float:left; 
+    width:25%;
+    height:280px;
+}
+#cont2 img{
+    height: 150px;
+}
+#cont2_2{
+    float:left; 
+    width:50%;
+    height:280px;
+    text-align: center;
+}
+#cont2_2 table, th, td, a:hover{
+    border: 1px solid black;
+    border-style: dotted;
+    width: 100%;
+    text-decoration: none;
+    color: #fed8b1;
+}
+#cont2_2 tr:nth-child(even){
+    background-color: lightgray;
+}
+/* #cont2_2 ul {
+    list-style-position: inside;
+    list-style-type: disc;
+    border-style: dotted;
+} */
+#cont2_3{
+    float:right;
+    width:25%;
+    height:280px;
+}
+#foot{
+    font-family: Consolas,"Courier New", monospace;
+    font-size: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#navi {
+    background-color: rgb(47, 47, 248);
+    height: 75px;
+    overflow: auto;
+}
+#navi a{
+    float: left;
+    color: white;
+    padding: 1%;
+    text-decoration: none;
+    font-size: 17px;
+    width: 16%;
+}
+#navi a:hover {
+    color: darkblue;
+}
+#navi ul {
+    list-style: none;
+    display: inline;
+}
+#gal_1 {
+    float: left;
+    width: 30%;
+}
+#gal_2 {
+    float: left;
+    width: 40%;
+}
+#gal_3 {
+    float: right;
+    width: 30%;
+}
